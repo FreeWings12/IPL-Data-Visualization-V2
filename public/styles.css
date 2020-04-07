@@ -21,3 +21,8 @@ button {
 button:hover {
     background-color: tomato;
 }
+
+.chart-heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
