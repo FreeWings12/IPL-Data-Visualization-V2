@@ -1,0 +1,23 @@
+.result-field {
+    min-width: 310px;
+    height: 400px;
+    margin: 30px auto;
+    border: 2px solid black;
+}
+
+.select-year label,
+select,
+button {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.select-year select {
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+
+.select-year select:hover,
+button:hover {
+    background-color: tomato;
+}
