@@ -1,7 +1,15 @@
 // ###################################################################
 //     Function to calculate the top 10 economical bowler in 2015
 // #####################################################################
-function economicalBowlers(matches, deliveries, year) {
+function economicalBowlers(matches, deliveries) {
+    let result = {};
+    for (let year = 2008; year <= 2019; year++) {
+        result[year] = getResults(matches, deliveries, year);
+    }
+    return result;
+}
+
+function getResults(matches, deliveries, year) {
     let concededRuns = {};
     let totalBalls = {};
 

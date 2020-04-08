@@ -41,11 +41,10 @@ function extraRunsEvent(button, year) {
     button.addEventListener("click", () => {
         fetch(`/extra-runs?season=${year.value}`)
             .then(data => data.json())
-            .then(d => visualizeExtraRunsByTeam(d))
+            .then(visualizeExtraRunsByTeam)
             .catch(err => console.log(err));
     });
 }
-
 
 
 function visualizeMatchesPlayedPerYear(matchesPlayedPerYear) {
@@ -182,13 +181,13 @@ function visualizeMostSixesHitters(mostSixes) {
         seriesData.push([batsman["Batsman"], batsman["Sixes"]]);
         batsmanNames.push(batsman["Batsman"]);
     }
-    Highcharts.chart("most-sixes-by-batsman", {
+    var chart = Highcharts.chart("most-sixes-by-batsman", {
         title: {
-            text: "Top 10 Six Hitters In IPL",
+            text: "Top 10 Six Hitters In IPL"
         },
 
         subtitle: {
-            text: 'Source: <a href="https://www.kaggle.com/nowke9/ipldata/data">IPL Dataset</a>',
+            text: 'Source: <a href="https://www.kaggle.com/nowke9/ipldata/data">IPL Dataset</a>'
         },
         xAxis: {
             type: "category",
@@ -197,9 +196,9 @@ function visualizeMostSixesHitters(mostSixes) {
                 rotation: 0,
                 style: {
                     fontSize: "13px",
-                    fontFamily: "Verdana, sans-serif",
-                },
-            },
+                    fontFamily: "Verdana, sans-serif"
+                }
+            }
         },
         series: [{
             type: "column",
@@ -217,10 +216,10 @@ function visualizeMostSixesHitters(mostSixes) {
                 y: 50, // 10 pixels down from the top
                 style: {
                     fontSize: "13px",
-                    fontFamily: "Verdana, sans-serif",
-                },
-            },
-        }, ],
+                    fontFamily: "Verdana, sans-serif"
+                }
+            }
+        }]
     });
 }
 
@@ -272,70 +271,64 @@ function visualizeMostOutByLbw(mostOutByLbw) {
 //Function to visualize extra runs given by the teams in 2016
 function visualizeExtraRunsByTeam(extraRunsByTeam) {
 
-    extraRunsByTeam = extraRunsByTeam["extraRunsResult"];
-    if (extraRunsByTeam) {
+    const seriesData = Object.keys(extraRunsByTeam).map(key => {
+        return [key, extraRunsByTeam[key]];
+    });
 
-        const seriesData = [];
-        for (let team in extraRunsByTeam) {
-            seriesData.push([team, extraRunsByTeam[team]]);
-        }
-
-        Highcharts.chart("extra-runs-by-team", {
-            chart: {
-                type: "column"
-            },
+    Highcharts.chart("extra-runs-by-team", {
+        chart: {
+            type: "column"
+        },
+        title: {
+            text: "Extra Runs By Teams"
+        },
+        subtitle: {
+            text: 'Source: <a href="https://www.kaggle.com/nowke9/ipldata/data">IPL Dataset</a>'
+        },
+        xAxis: {
+            type: "category",
+            labels: {
+                rotation: -45,
+                style: {
+                    fontSize: "13px",
+                    fontFamily: "Verdana, sans-serif"
+                }
+            }
+        },
+        yAxis: {
+            min: 30,
             title: {
-                text: "Extra Runs By Teams"
-            },
-            subtitle: {
-                text: 'Source: <a href="https://www.kaggle.com/nowke9/ipldata/data">IPL Dataset</a>'
-            },
-            xAxis: {
-                type: "category",
-                labels: {
-                    rotation: -45,
-                    style: {
-                        fontSize: "13px",
-                        fontFamily: "Verdana, sans-serif"
-                    }
+                text: "Extra Runs"
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            pointFormat: '<tr><td style="padding:0">Extra Runs: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>'
+        },
+        series: [{
+            name: "Teams",
+            data: seriesData,
+            dataLabels: {
+                enabled: true,
+                rotation: 0,
+                color: "#FFF",
+                align: "center",
+                // format: '{point.y:.1f}', // one decimal
+                // y: 50, // 10 pixels down from the top
+                style: {
+                    fontSize: "13px",
+                    fontFamily: "Verdana, sans-serif"
                 }
-            },
-            yAxis: {
-                min: 30,
-                title: {
-                    text: "Extra Runs"
-                }
-            },
-            legend: {
-                enabled: false
-            },
-            tooltip: {
-                pointFormat: '<tr><td style="padding:0">Extra Runs: </td>' +
-                    '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>'
-            },
-            series: [{
-                name: "Teams",
-                data: seriesData,
-                dataLabels: {
-                    enabled: true,
-                    rotation: 0,
-                    color: "#FFF",
-                    align: "center",
-                    // format: '{point.y:.1f}', // one decimal
-                    // y: 50, // 10 pixels down from the top
-                    style: {
-                        fontSize: "13px",
-                        fontFamily: "Verdana, sans-serif"
-                    }
-                }
-            }]
-        });
-    }
+            }
+        }]
+    });
 }
 
 //Function to visualize top 10 economical bowlers in requested year
 function visualizeEconomicalBowlers(economicalBowlers) {
-    economicalBowlers = economicalBowlers["economicalBowlersResult"];
     const seriesData = [];
     for (let bowler in economicalBowlers) {
         seriesData.push([

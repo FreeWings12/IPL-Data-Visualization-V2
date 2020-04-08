@@ -1,0 +1,376 @@
+{
+    "economicalBowlersResult": {
+        "2008": [{
+            "bowler": "TM Dilshan",
+            "economy": "3.00"
+        }, {
+            "bowler": "DJ Thornely",
+            "economy": "5.71"
+        }, {
+            "bowler": "BAW Mendis",
+            "economy": "6.00"
+        }, {
+            "bowler": "RG Sharma",
+            "economy": "6.25"
+        }, {
+            "bowler": "SC Ganguly",
+            "economy": "6.40"
+        }, {
+            "bowler": "Sohail Tanvir",
+            "economy": "6.56"
+        }, {
+            "bowler": "GD McGrath",
+            "economy": "6.61"
+        }, {
+            "bowler": "DW Steyn",
+            "economy": "6.63"
+        }, {
+            "bowler": "AB Dinda",
+            "economy": "6.67"
+        }, {
+            "bowler": "SM Pollock",
+            "economy": "6.72"
+        }],
+        "2009": [{
+            "bowler": "R Ashwin",
+            "economy": "3.25"
+        }, {
+            "bowler": "CK Langeveldt",
+            "economy": "3.75"
+        }, {
+            "bowler": "RS Bopara",
+            "economy": "3.75"
+        }, {
+            "bowler": "AM Rahane",
+            "economy": "5.00"
+        }, {
+            "bowler": "M Muralitharan",
+            "economy": "5.22"
+        }, {
+            "bowler": "JP Duminy",
+            "economy": "5.31"
+        }, {
+            "bowler": "A Singh",
+            "economy": "5.54"
+        }, {
+            "bowler": "B Lee",
+            "economy": "5.65"
+        }, {
+            "bowler": "M Morkel",
+            "economy": "5.71"
+        }, {
+            "bowler": "Harbhajan Singh",
+            "economy": "5.82"
+        }],
+        "2010": [{
+            "bowler": "V Sehwag",
+            "economy": "4.06"
+        }, {
+            "bowler": "ND Doshi",
+            "economy": "4.25"
+        }, {
+            "bowler": "AJ Finch",
+            "economy": "4.29"
+        }, {
+            "bowler": "B Akhil",
+            "economy": "6.00"
+        }, {
+            "bowler": "WPUJC Vaas",
+            "economy": "6.32"
+        }, {
+            "bowler": "R Ashwin",
+            "economy": "6.35"
+        }, {
+            "bowler": "A Kumble",
+            "economy": "6.43"
+        }, {
+            "bowler": "M Kartik",
+            "economy": "6.49"
+        }, {
+            "bowler": "DP Nannes",
+            "economy": "6.52"
+        }, {
+            "bowler": "Yuvraj Singh",
+            "economy": "6.61"
+        }],
+        "2011": [{
+            "bowler": "S Rana",
+            "economy": "3.00"
+        }, {
+            "bowler": "JP Faulkner",
+            "economy": "4.50"
+        }, {
+            "bowler": "AA Chavan",
+            "economy": "5.40"
+        }, {
+            "bowler": "S Dhawan",
+            "economy": "5.50"
+        }, {
+            "bowler": "R Sharma",
+            "economy": "5.50"
+        }, {
+            "bowler": "SS Mundhe",
+            "economy": "6.00"
+        }, {
+            "bowler": "M Manhas",
+            "economy": "6.00"
+        }, {
+            "bowler": "SL Malinga",
+            "economy": "6.05"
+        }, {
+            "bowler": "DL Vettori",
+            "economy": "6.06"
+        }, {
+            "bowler": "B Kumar",
+            "economy": "6.09"
+        }],
+        "2012": [{
+            "bowler": "AG Murtaza",
+            "economy": "5.50"
+        }, {
+            "bowler": "SP Narine",
+            "economy": "5.51"
+        }, {
+            "bowler": "L Balaji",
+            "economy": "5.60"
+        }, {
+            "bowler": "RE van der Merwe",
+            "economy": "6.00"
+        }, {
+            "bowler": "LR Shukla",
+            "economy": "6.00"
+        }, {
+            "bowler": "WD Parnell",
+            "economy": "6.10"
+        }, {
+            "bowler": "A Chandila",
+            "economy": "6.14"
+        }, {
+            "bowler": "DW Steyn",
+            "economy": "6.19"
+        }, {
+            "bowler": "AB McDonald",
+            "economy": "6.30"
+        }, {
+            "bowler": "SL Malinga",
+            "economy": "6.31"
+        }],
+        "2013": [{
+            "bowler": "AC Gilchrist",
+            "economy": "0.00"
+        }, {
+            "bowler": "BJ Hodge",
+            "economy": "3.00"
+        }, {
+            "bowler": "RG Sharma",
+            "economy": "4.50"
+        }, {
+            "bowler": "RV Gomez",
+            "economy": "5.00"
+        }, {
+            "bowler": "Anand Rajan",
+            "economy": "5.25"
+        }, {
+            "bowler": "Bipul Sharma",
+            "economy": "5.25"
+        }, {
+            "bowler": "SP Narine",
+            "economy": "5.47"
+        }, {
+            "bowler": "JDP Oram",
+            "economy": "5.50"
+        }, {
+            "bowler": "Parvez Rasool",
+            "economy": "5.60"
+        }, {
+            "bowler": "DW Steyn",
+            "economy": "5.83"
+        }],
+        "2014": [{
+            "bowler": "Ankit Sharma",
+            "economy": "5.38"
+        }, {
+            "bowler": "R Rampaul",
+            "economy": "6.17"
+        }, {
+            "bowler": "AR Patel",
+            "economy": "6.26"
+        }, {
+            "bowler": "Harbhajan Singh",
+            "economy": "6.47"
+        }, {
+            "bowler": "P Kumar",
+            "economy": "6.50"
+        }, {
+            "bowler": "Z Khan",
+            "economy": "6.54"
+        }, {
+            "bowler": "SP Narine",
+            "economy": "6.55"
+        }, {
+            "bowler": "R Tewatia",
+            "economy": "6.56"
+        }, {
+            "bowler": "B Kumar",
+            "economy": "6.66"
+        }, {
+            "bowler": "SL Malinga",
+            "economy": "6.71"
+        }],
+        "2015": [{
+            "bowler": "RN ten Doeschate",
+            "economy": "4.00"
+        }, {
+            "bowler": "J Yadav",
+            "economy": "4.14"
+        }, {
+            "bowler": "V Kohli",
+            "economy": "5.45"
+        }, {
+            "bowler": "R Ashwin",
+            "economy": "5.85"
+        }, {
+            "bowler": "S Nadeem",
+            "economy": "6.14"
+        }, {
+            "bowler": "Parvez Rasool",
+            "economy": "6.20"
+        }, {
+            "bowler": "MC Henriques",
+            "economy": "6.32"
+        }, {
+            "bowler": "Z Khan",
+            "economy": "6.46"
+        }, {
+            "bowler": "MA Starc",
+            "economy": "6.81"
+        }, {
+            "bowler": "GB Hogg",
+            "economy": "6.95"
+        }],
+        "2016": [{
+            "bowler": "N Rana",
+            "economy": "3.00"
+        }, {
+            "bowler": "Sachin Baby",
+            "economy": "4.80"
+        }, {
+            "bowler": "MR Marsh",
+            "economy": "5.00"
+        }, {
+            "bowler": "YK Pathan",
+            "economy": "5.50"
+        }, {
+            "bowler": "JW Hastings",
+            "economy": "5.55"
+        }, {
+            "bowler": "S Gopal",
+            "economy": "6.00"
+        }, {
+            "bowler": "CH Gayle",
+            "economy": "6.30"
+        }, {
+            "bowler": "A Zampa",
+            "economy": "6.88"
+        }, {
+            "bowler": "Mustafizur Rahman",
+            "economy": "6.93"
+        }, {
+            "bowler": "KS Williamson",
+            "economy": "7.00"
+        }],
+        "2017": [{
+            "bowler": "NB Singh",
+            "economy": "3.75"
+        }, {
+            "bowler": "Mohammad Nabi",
+            "economy": "5.27"
+        }, {
+            "bowler": "R Tewatia",
+            "economy": "5.44"
+        }, {
+            "bowler": "Avesh Khan",
+            "economy": "5.75"
+        }, {
+            "bowler": "P Negi",
+            "economy": "6.12"
+        }, {
+            "bowler": "Washington Sundar",
+            "economy": "6.17"
+        }, {
+            "bowler": "Harbhajan Singh",
+            "economy": "6.49"
+        }, {
+            "bowler": "GJ Maxwell",
+            "economy": "6.58"
+        }, {
+            "bowler": "Rashid Khan",
+            "economy": "6.67"
+        }, {
+            "bowler": "S Nadeem",
+            "economy": "6.67"
+        }],
+        "2018": [{
+            "bowler": "I Sodhi",
+            "economy": "5.91"
+        }, {
+            "bowler": "L Ngidi",
+            "economy": "6.58"
+        }, {
+            "bowler": "Rashid Khan",
+            "economy": "6.90"
+        }, {
+            "bowler": "YK Pathan",
+            "economy": "7.00"
+        }, {
+            "bowler": "KH Pandya",
+            "economy": "7.24"
+        }, {
+            "bowler": "M Ur Rahman",
+            "economy": "7.28"
+        }, {
+            "bowler": "N Rana",
+            "economy": "7.30"
+        }, {
+            "bowler": "A Mishra",
+            "economy": "7.30"
+        }, {
+            "bowler": "JJ Bumrah",
+            "economy": "7.48"
+        }, {
+            "bowler": "M Ali",
+            "economy": "7.59"
+        }],
+        "2019": [{
+            "bowler": "S Dube",
+            "economy": "5.40"
+        }, {
+            "bowler": "SK Raina",
+            "economy": "6.00"
+        }, {
+            "bowler": "STR Binny",
+            "economy": "6.42"
+        }, {
+            "bowler": "RA Jadeja",
+            "economy": "6.46"
+        }, {
+            "bowler": "RD Chahar",
+            "economy": "6.70"
+        }, {
+            "bowler": "Rashid Khan",
+            "economy": "6.78"
+        }, {
+            "bowler": "R Tewatia",
+            "economy": "6.79"
+        }, {
+            "bowler": "M Ali",
+            "economy": "6.79"
+        }, {
+            "bowler": "A Mishra",
+            "economy": "6.80"
+        }, {
+            "bowler": "A Roy",
+            "economy": "7.00"
+        }]
+    }
+}

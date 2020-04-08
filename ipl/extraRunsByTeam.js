@@ -1,7 +1,16 @@
 // ###################################################################
 //     Function to calculate the extra runs given by teams in 2016
 // #####################################################################
-function extraRunsByTeam(matches, deliveries, year) {
+function extraRunsByTeam(matches, deliveries) {
+    let result = {};
+    for (let year = 2008; year <= 2019; year++) {
+        result[year] = getResults(matches, deliveries, year);
+    }
+    return result;
+}
+
+
+function getResults(matches, deliveries, year) {
     let result = {};
     for (let match of matches) {
         for (let delivery of deliveries) {
